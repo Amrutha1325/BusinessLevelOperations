@@ -3,12 +3,12 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class  ProjectPhase1  
+public class  BusinessLevelOperations 
 {
 	 static String MY_Dir;
 	    File myFolder;
 
-	    public  ProjectPhase1() 
+	    public  BusinessLevelOperations() 
 	    {
 	    	MY_Dir = System.getProperty("user.dir");
 	    	myFolder = new File("E:\\Java Files");
@@ -17,7 +17,7 @@ public class  ProjectPhase1
 	        System.out.println("MyFilePath : "+ myFolder.getAbsolutePath());
 	    }
 	   private static final String WELCOME_TO_MY_COMPANY_PORTAL =
-	   "\n Welcome to LockedMe.com Phase 1 Project " + "  " + "\n By Amrutha Gadi " + " " + "\n From Company Lockers Pvt. Ltd";
+	   "\n Welcome to LockedMe.com Phase 1 Project " + "  " +    "\n By Amrutha Gadi " + " " + "\n From Company Lockers Pvt. Ltd";
 	   private static final String The_LOGIC_PART =
 	            "\nMAIN MENU - Select any one of the following operations: \n"+
 	                    "1 - List the types of files in directory\n"+
@@ -144,7 +144,7 @@ public class  ProjectPhase1
 	    }
 	    public static void main(String[] args) {
 	        System.out.println(WELCOME_TO_MY_COMPANY_PORTAL); 
-	        ProjectPhase1 menu = new ProjectPhase1();
+	        BusinessLevelOperations menu = new BusinessLevelOperations();
 	        menu.firstView();
 	    }
 }
